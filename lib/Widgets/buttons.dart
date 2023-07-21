@@ -34,12 +34,9 @@ class ButtonWidget extends StatelessWidget {
               onPressed: (){
               print('like');
             }, 
-              child: const Text('Press Me')
-              
+              child: const Text('Press Me')   
               ),
           )
-
-
         ]),
       ),
     );
