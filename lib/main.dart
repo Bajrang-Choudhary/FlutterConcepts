@@ -1,3 +1,4 @@
+import 'package:containers_sizedbox/Widgets/buttons.dart';
 import 'package:containers_sizedbox/Widgets/rawscols.dart';
 import 'package:flutter/material.dart';
 
@@ -13,11 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
+        primaryColor: Colors.deepPurple
         // appBarTheme: const AppBarTheme(backgroundColor: Colors.green),
       ),
       // home: const Container_Sized(),
-      home: const RawsCols(),
+      home: const ButtonWidget(),
     );
   }
 }
