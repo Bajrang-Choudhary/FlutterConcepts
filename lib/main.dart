@@ -1,6 +1,7 @@
 import 'package:containers_sizedbox/Widgets/buttons.dart';
 import 'package:containers_sizedbox/Widgets/list_grid.dart';
 import 'package:containers_sizedbox/Widgets/rawscols.dart';
+import 'package:containers_sizedbox/Widgets/snackbar.dart';
 import 'package:flutter/material.dart';
 
 import 'Widgets/container_sized.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         // appBarTheme: const AppBarTheme(backgroundColor: Colors.green),
       ),
       // home: const Container_Sized(),
-      home: const ListGrid(),
+      home: const SnackbarWidget(),
     );
   }
 }
