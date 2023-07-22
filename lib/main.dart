@@ -1,3 +1,4 @@
+import 'package:containers_sizedbox/Widgets/alert.dart';
 import 'package:containers_sizedbox/Widgets/buttons.dart';
 import 'package:containers_sizedbox/Widgets/dismissible.dart';
 import 'package:containers_sizedbox/Widgets/drawer.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // appBarTheme: const AppBarTheme(backgroundColor: Colors.green),
       ),
       // home: const Container_Sized(),
-      home: const ImageWidget(),
+      home: const AlertDialogueBox(),
     );
   }
 }
