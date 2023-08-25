@@ -3,12 +3,7 @@ import 'package:containers_sizedbox/Widgets/dismissible.dart';
 import 'package:containers_sizedbox/Widgets/rawscols.dart';
 import 'package:containers_sizedbox/Widgets/snackbar.dart';
 import 'package:flutter/material.dart';
-
-
-
-
-
-
+  
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
