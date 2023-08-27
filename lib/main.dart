@@ -1,3 +1,4 @@
+import 'package:containers_sizedbox/UI%20Clones/day19ui.dart';
 import 'package:containers_sizedbox/Widgets/alert.dart';
 import 'package:containers_sizedbox/Widgets/animated_text.dart';
 import 'package:containers_sizedbox/Widgets/bottomsheet.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         // appBarTheme: const AppBarTheme(backgroundColor: Colors.green),
       ),
       // home: const Container_Sized(),
-      home: LocationWidget()
+      home: const Day19()
     );
   }
 }
