@@ -9,6 +9,7 @@ import 'package:containers_sizedbox/Widgets/form.dart';
 import 'package:containers_sizedbox/Widgets/image.dart';
 import 'package:containers_sizedbox/Widgets/image_picker.dart';
 import 'package:containers_sizedbox/Widgets/list_grid.dart';
+import 'package:containers_sizedbox/Widgets/location.dart';
 import 'package:containers_sizedbox/Widgets/rawscols.dart';
 import 'package:containers_sizedbox/Widgets/snackbar.dart';
 import 'package:containers_sizedbox/Widgets/bottom_nav.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         // appBarTheme: const AppBarTheme(backgroundColor: Colors.green),
       ),
       // home: const Container_Sized(),
-      home: const ImagePickerWidget()
+      home: LocationWidget()
     );
   }
 }
